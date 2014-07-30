@@ -6,6 +6,22 @@ class Parcel
     @weight = weight
   end
 
+  def length
+    @length
+  end
+
+  def width
+    @width
+  end
+
+  def height
+    @height
+  end
+
+  def weight
+    @weight
+  end
+
   def volume
     @length * @width * @height
   end
